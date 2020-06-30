@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+    --fondoPrincipal: url(../imagenes/logo.jpg);
+    --cajas: #e78719de;
+    --colorTexto: rgb(0, 0, 0);
+    --cajas2: rgba(0, 0, 0, .5);
+}
+
+body {
+    background: rgba(34, 33, 33, 0.911);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: var(--cajas);
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.formulario {
+    width: 100%;
+    margin: auto;
+}
+
+.titulo {
+    color: #f1f1f1;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.formulario .dato {
+    position: relative;
+    margin: 30px;
+}
+
+.contenido-dato {
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+label {
+    color: var(--colorTexto);
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    margin: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background: #d5d8db;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6a6b6b, #cacac9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #818283, #d3d4d6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.error {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    #formulario {
+        width: 70%;
+    }
+}
