@@ -7,15 +7,18 @@
 
 :root {
     --fondoPrincipal: url(../imagenes/logo.jpg);
-    --cajas: #e78719de;
+    --cajas: #ff8800b6;
     --colorTexto: rgb(0, 0, 0);
     --cajas2: rgba(0, 0, 0, .5);
 }
 
 body {
-    background: rgba(34, 33, 33, 0.911);
+    background: url(../imagenes/leon\ negro\ naranja\ oficial.svg);
     background-size: cover;
     background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .form {

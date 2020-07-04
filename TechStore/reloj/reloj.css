@@ -14,18 +14,18 @@
 
 .fecha {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5px;
-    background: rgba(0, 0, 0, .5);
+    background: #ff8800b6;
     padding: 20px;
     width: 100%;
 }
 
 .reloj {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 5px;
-    background: rgba(0, 0, 0, .5);
+    background: #ff8800b6;
     padding: 20px;
     width: 100%;
 }
@@ -36,6 +36,6 @@
 
 .reloj .segundos,
 .reloj .ampm {
-    font-size: 25px;
+    font-size: 17px;
     display: block;
 }
