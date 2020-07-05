@@ -58,18 +58,16 @@ body {
 .textos {
     justify-content: center;
     text-align: center;
+    padding-top: 60px;
 }
 
 .texto {
     color: rgb(255, 166, 0);
     font-size: 25px;
     text-align: center;
-    margin-top: 40%;
 }
 
 .contenedor:hover {
-    width: 180px;
-    height: 180px;
     box-shadow: 0 0 10px 0 rgba(235, 227, 227, 0.8);
     background: black;
     transition: cubic-bezier(0.86, 0, 0.07, 1);
