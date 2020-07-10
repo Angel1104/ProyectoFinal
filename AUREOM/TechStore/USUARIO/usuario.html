@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUREOM</title>
+    <link rel="stylesheet" href="usuario.css">
+    <link rel="stylesheet" href="../reloj/reloj.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="widget">
+            <div class="fecha">
+                <p id="diaSemana" class="diaSemana"></p>
+                <p id="dia" class="dia"></p>
+                <p>de</p>
+                <p id="mes" class="mes"></p>
+                <p>del</p>
+                <p id="anio" class="anio"></p>
+            </div>
+            <div class="reloj">
+                <p id="horas" class="horas"></p>
+                <p>:</p>
+                <p id="minutos" class="minutos"></p>
+                <p>:</p>
+                <div class="caja-segundos">
+                    <p id="ampm" class="ampm"></p>
+                    <p id="segundos" class="segundos"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="form">
+        <form class="inicioSesion " id="formulario" action="formulario" method="get">
+            <div class="formulario">
+                <h2 class="titulo">AUREOM</h1>
+                    <div class="dato">
+                        <label for="usuario">Seleccione usuario</label>
+                        <select class="contenido-dato" name="" id="usuario">
+                            <option value="Empleado">Empleado</option>
+                            <option value="Socio">Socio</option>
+                        </select>
+                    </div>
+             
+                 <div class="dato">
+                    <label for="codigo">Ingrese su código</label>
+                    <input class="contenido-dato" type="password" placeholder="código" maxlength="6" id="codigo">
+                </div>
+                <button type="submit">Enviar</button>
+                    <p class="error" id="error"></p>
+                    
+                    <a href="../empleado/empleado.html" id="empleado" class="confirmar"></a>
+                    <a href="../Socio/socio.html" id="socio" class="confirmar"></a>
+                    
+                        
+                 </div>
+
+            </div>
+        </form>
+    </section>
+
+</body>
+<script src="usuario.js"></script>
+<script src="../reloj/reloj.js"></script>
+
+</html>

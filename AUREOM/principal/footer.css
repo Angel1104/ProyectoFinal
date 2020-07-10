@@ -1,0 +1,55 @@
+/* Footer */
+
+footer {
+    background: url(../img/fondoosucro.jpg);
+}
+
+.marca-logo {
+    width: 40%;
+    margin: auto;
+    margin-bottom: var(--espacios);
+}
+
+.marca-logo img {
+    width: 100%;
+}
+
+.iconos {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.iconos a {
+    display: inline-block;
+    color: #adb6c7;
+    border: 1px solid #adb6c7;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.iconos a:hover {
+    color: #fff;
+    background-color: var(--color4);
+    border-color: var(--color4);
+}
+
+.fab {
+    font-size: 50px;
+    color: #FFF;
+    margin-bottom: var(--espacios);
+}
+
+footer p {
+    margin-top: var(--espacios);
+    font-size: 30px;
+    color: var(--color4);
+    font-size: 20px;
+}

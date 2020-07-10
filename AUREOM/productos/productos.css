@@ -1,0 +1,145 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: 'Roboto', sans-serif;
+            }
+            
+             :root {
+                --color1: rgb(219, 144, .5);
+                --color2: rgba(23, 180, 83, 0.877);
+                --color3: rgba(11, 194, 211, 0.623);
+                --color4: #ff5e00;
+                --fondo: #f2f2f2;
+                --titulos: 33px;
+                --margenes: 60px;
+                --espacios: 10px;
+                --espacios-contenido: 45px;
+            }
+            /* body */
+            
+            .titulo {
+                font-size: var(--titulos);
+                color: var(--color4);
+                margin-bottom: var(--espacios);
+            }
+            
+            .contenedor {
+                margin: auto;
+                padding: var(--margenes) 0;
+                width: 90%;
+                max-width: 1000px;
+                text-align: center;
+                overflow: hidden;
+            }
+            
+            .TIENDA {
+                background: #f2f2f2;
+            }
+            
+            .contenedor-producto {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 60px;
+                justify-content: space-around;
+            }
+            
+            .producto {
+                width: 29%;
+                background: #fff;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                padding: 45px 30px 60px 30px;
+                transition: 0.5s;
+            }
+            
+            .producto:hover {
+                box-shadow: 0 4px 10px rgba(236, 100, 21, 0.26);
+            }
+            
+            .producto>i {
+                font-size: 30px;
+                color: #fff;
+                background: var(--color4);
+                display: inline-block;
+                width: 70px;
+                height: 70px;
+                text-align: center;
+                padding-top: 20px;
+                border-radius: 50%;
+                box-shadow: 0 8px 32px rgba(222, 117, 31, 0.46);
+            }
+            
+            .producto>h3 {
+                font-size: 24px;
+                margin-top: 30px;
+                color: var(--color4);
+            }
+            
+            .producto>p {
+                font-weight: 100;
+                color: #5D6678;
+                margin-top: 15px;
+                padding-bottom: 20px;
+            }
+            
+            .producto>a {
+                color: var(--color1);
+                font-weight: 400;
+                text-decoration: none;
+            }
+            
+            .producto>a:hover {
+                color: var(--color4);
+                transition: color .5s;
+                font-size: 20px;
+            }
+            
+            .img-productos {
+                height: 50%;
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .img-productos img {
+                height: 100%;
+                width: 100%;
+            }
+            
+            .cont-productos>h3 {
+                font-size: 24px;
+                margin-top: 30px;
+            }
+            
+            .cont-productos>p {
+                color: #5D6678;
+                margin-top: 15px;
+                padding-bottom: 30px;
+            }
+            
+            .cont-productos>a {
+                color: #c28d1c;
+                text-decoration: none;
+            }
+            
+            .cont-productos>a:hover {
+                color: #de6b1f;
+                transition: color .5s;
+            }
+            
+            @media screen and (max-width:800px) {
+                /* About us */
+                .producto {
+                    width: 45%;
+                }
+            }
+            
+            @media screen and (max-width:600px) {
+                /* About us */
+                .producto {
+                    width: 95%;
+                }
+            }
